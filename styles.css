@@ -22,8 +22,8 @@
     --dark-card: #f8fafc;
     --dark-hover: #f1f5f9;
     --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-muted: #64748b;
+    --text-secondary: #ffffff;
+    --text-muted: #ffffff;
     
     /* Gradient */
     --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
