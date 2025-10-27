@@ -532,6 +532,7 @@ body {
     font-weight: 600;
     border: 2px solid var(--primary-color);
     box-shadow: var(--shadow-lg);
+    color: white;
 }
 
 .status-dot {
@@ -1447,6 +1448,17 @@ body {
 /* ============================================
    ANIMATIONS
    ============================================ */
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 [data-aos] {
     opacity: 0;
     transition: opacity 0.6s ease, transform 0.6s ease;
